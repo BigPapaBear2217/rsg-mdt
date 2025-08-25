@@ -1,11 +1,11 @@
-# RSG Mobile Data Terminal (MDT)
+# RSG Sheriff Archives (SA)
 
-The Mobile Data Terminal (MDT) is a standalone law enforcement database system for RedM servers. It provides officers with access to criminal records, warrants, BOLOs, incident reports, and citation management through an intuitive in-game interface.
+The Sheriff Archive (SA) is a standalone law enforcement database system for RedM servers. It provides officers with access to criminal records, warrants, BOLOs, incident reports, and citation management through an intuitive in-game interface.
 
 ## Features
 
 - **Person Search**: Search for citizens by name or citizen ID
-- **horse Search**: Search for horses by plate, model, or owner
+- **horse Search**: Search for horses be owner
 - **Criminal Records**: View and manage criminal history
 - **Warrants**: Issue, view, and manage arrest warrants
 - **BOLOs**: Create and track Be On the Lookout alerts for horses
@@ -15,17 +15,17 @@ The Mobile Data Terminal (MDT) is a standalone law enforcement database system f
 
 ## Installation
 
-1. Download and place the `rsg-mdt` folder in your server's resources directory
-2. Add `ensure rsg-mdt` to your server.cfg
-3. Run the SQL schema in `mdt_schema.sql` to create the necessary database tables
+1. Download and place the `rsg-SA` folder in your server's resources directory
+2. Add `ensure rsg-SA` to your server.cfg
+3. Run the SQL schema in `SA_schema.sql` to create the necessary database tables
 4. Configure job access in `config.lua`
 5. Restart your server
 
 ## Usage
 
-### Opening the MDT
+### Opening the SA
 
-1. **Command**: Type `/mdt` in chat when on duty as a law enforcement officer
+1. **Command**: Type `/SA` in chat when on duty as a law enforcement officer
 2. **Keybind**: Press `M` (default) when on duty as a law enforcement officer
 
 ### Features Overview
@@ -48,7 +48,7 @@ Search for citizens and view their records:
 
 #### horses Tab
 Search for horses and view related information:
-- Search by plate, model, or owner
+- Search by owner
 - View horse details
 - Check for active BOLOs
 - View incident involvement
@@ -72,28 +72,28 @@ Manage citations:
 
 ## Commands
 
-- `/mdt` - Open the Mobile Data Terminal
+- `/mdt` - Open the Sheriff Archive
 
 ## Keybinds
 
-- `M` - Open MDT (when on duty as law enforcement)
+- `M` - Open SA (when on duty as law enforcement)
 
 ## Database Schema
 
-The MDT system uses several database tables to store information:
-- `mdt_criminal_records` - Criminal charges and records
-- `mdt_warrants` - Arrest warrants
-- `mdt_bolos` - Be On the Lookout alerts
-- `mdt_incidents` - Incident reports
-- `mdt_citations` - Traffic/parking citations
-- `mdt_horses` - horse records
-- `mdt_reports` - General reports
-- `mdt_logs` - System logs
+The SA system uses several database tables to store information:
+- `SA_criminal_records` - Criminal charges and records
+- `SA_warrants` - Arrest warrants
+- `SA_bolos` - Be On the Lookout alerts
+- `SA_incidents` - Incident reports
+- `SA_citations` - Traffic/parking citations
+- `SA_horses` - horse records
+- `SA_reports` - General reports
+- `SA_logs` - System logs
 
 ## Configuration
 
-The MDT system can be configured through the main `config.lua` file:
-- `Config.MDTKeybind` - Key to open MDT (default: 'M')
+The SA system can be configured through the main `config.lua` file:
+- `Config.SAKeybind` - Key to open SA (default: 'M')
 
 ## Requirements
 
