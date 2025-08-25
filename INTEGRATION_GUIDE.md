@@ -11,7 +11,7 @@ Copy the `rsg-mdt` folder to your server's resources directory.
 ### 2. Import Database Schema
 Execute the SQL files in order:
 - `mdt_schema.sql` - Main MDT database structure
-- `mdt_schema_updated.sql` - Recent updates and fixes
+
 
 ### 3. Configure Server.cfg
 Add the following to your server.cfg:
@@ -36,7 +36,7 @@ Edit `rsg-mdt/config.lua` to set:
 
 ### Features
 - Person search and records
-- Vehicle registration and history
+- horse registration and history
 - Horse registration and BOLOs
 - Warrant management
 - BOLO (Be On Lookout) system
@@ -54,7 +54,7 @@ Edit `rsg-mdt/config.lua` to set:
 ## Database Tables
 The MDT system uses these database tables:
 - `mdt_persons` - Person records
-- `mdt_vehicles` - Vehicle information
+- `mdt_horses` - horse information
 - `mdt_horses` - Horse registration
 - `mdt_incidents` - Incident reports
 - `mdt_warrants` - Active warrants

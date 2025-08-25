@@ -5,10 +5,10 @@ The Mobile Data Terminal (MDT) is a standalone law enforcement database system f
 ## Features
 
 - **Person Search**: Search for citizens by name or citizen ID
-- **Vehicle Search**: Search for vehicles by plate, model, or owner
+- **horse Search**: Search for horses by plate, model, or owner
 - **Criminal Records**: View and manage criminal history
 - **Warrants**: Issue, view, and manage arrest warrants
-- **BOLOs**: Create and track Be On the Lookout alerts for vehicles
+- **BOLOs**: Create and track Be On the Lookout alerts for horses
 - **Incident Reports**: File and view incident reports
 - **Citations**: Issue and manage traffic/parking citations
 - **Dashboard**: View recent incidents, active warrants, and BOLOs at a glance
@@ -46,10 +46,10 @@ Search for citizens and view their records:
 - View incident involvement
 - Issue citations directly
 
-#### Vehicles Tab
-Search for vehicles and view related information:
+#### horses Tab
+Search for horses and view related information:
 - Search by plate, model, or owner
-- View vehicle details
+- View horse details
 - Check for active BOLOs
 - View incident involvement
 - Create BOLOs directly
@@ -63,8 +63,8 @@ Manage arrest warrants:
 - Issue new warrants with reason
 
 #### BOLOs Tab
-Manage vehicle alerts:
-- Access vehicle BOLO management through the Vehicles section
+Manage horse alerts:
+- Access horse BOLO management through the horses section
 
 #### Citations Tab
 Manage citations:
@@ -86,7 +86,7 @@ The MDT system uses several database tables to store information:
 - `mdt_bolos` - Be On the Lookout alerts
 - `mdt_incidents` - Incident reports
 - `mdt_citations` - Traffic/parking citations
-- `mdt_vehicles` - Vehicle records
+- `mdt_horses` - horse records
 - `mdt_reports` - General reports
 - `mdt_logs` - System logs
 
