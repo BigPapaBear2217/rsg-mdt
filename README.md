@@ -1,4 +1,4 @@
-# RSG Sheriff Archives (SA)
+# MDT Sheriff Archives (SA)
 
 The Sheriff Archive (SA) is a standalone law enforcement database system for RedM servers. It provides officers with access to criminal records, warrants, BOLOs, incident reports, and citation management through an intuitive in-game interface.
 
