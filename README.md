@@ -15,9 +15,9 @@ The Sheriff Archive (SA) is a standalone law enforcement database system for Red
 
 ## Installation
 
-1. Download and place the `rsg-SA` folder in your server's resources directory
-2. Add `ensure rsg-SA` to your server.cfg
-3. Run the SQL schema in `SA_schema.sql` to create the necessary database tables
+1. Download and place the `KK-mdt` folder in your server's resources directory
+2. Add `ensure kk-mdt` to your server.cfg
+3. Run the SQL schema in `mdt_schema.sql` to create the necessary database tables
 4. Configure job access in `config.lua`
 5. Restart your server
 
@@ -25,7 +25,7 @@ The Sheriff Archive (SA) is a standalone law enforcement database system for Red
 
 ### Opening the SA
 
-1. **Command**: Type `/SA` in chat when on duty as a law enforcement officer
+1. **Command**: Type `/mdt` in chat when on duty as a law enforcement officer
 2. **Keybind**: Press `M` (default) when on duty as a law enforcement officer
 
 ### Features Overview
@@ -81,14 +81,14 @@ Manage citations:
 ## Database Schema
 
 The SA system uses several database tables to store information:
-- `SA_criminal_records` - Criminal charges and records
-- `SA_warrants` - Arrest warrants
-- `SA_bolos` - Be On the Lookout alerts
-- `SA_incidents` - Incident reports
-- `SA_citations` - Traffic/parking citations
-- `SA_horses` - horse records
-- `SA_reports` - General reports
-- `SA_logs` - System logs
+- `mdt_criminal_records` - Criminal charges and records
+- `mdt_warrants` - Arrest warrants
+- `mdt_bolos` - Be On the Lookout alerts
+- `mdt_incidents` - Incident reports
+- `mdt_citations` - Traffic/parking citations
+- `mdt_horses` - horse records
+- `mdt_reports` - General reports
+- `mdt_logs` - System logs
 
 ## Configuration
 
